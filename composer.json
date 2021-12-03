@@ -1,0 +1,51 @@
+{
+	"name": "codekandis/data",
+	"description": "`codekandis/data` is a library providing interfaces and classes for data types and serialization purposes.",
+	"keywords": [
+		"php",
+		"library",
+		"interfaces",
+		"classes",
+		"data",
+		"types",
+		"serialization"
+	],
+	"minimum-stability": "stable",
+	"prefer-stable": true,
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Christian Ramelow",
+			"email": "info@codekandis.net",
+			"homepage": "https://codekandis.net",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"email": "info@codekandis.net",
+		"issues": "https://github.com/codekandis/data/issues",
+		"docs": "https://github.com/codekandis/data/README.md",
+		"source": "https://github.com/codekandis/data/tree/master"
+	},
+	"require": {
+		"php": "^8.0"
+	},
+	"require-dev": {
+		"roave/security-advisories": "dev-master",
+		"codekandis/phpunit": "^3"
+	},
+	"autoload": {
+		"psr-4": {
+			"CodeKandis\\Data\\": [
+				"src/"
+			]
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"CodeKandis\\Data\\Tests\\": [
+				"tests/"
+			]
+		}
+	}
+}
